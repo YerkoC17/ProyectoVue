@@ -1,4 +1,8 @@
 import './assets/main.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Swal from 'sweetalert2';
+window.Swal = Swal; // Lo haces globalmente accesible
+
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
